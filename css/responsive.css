@@ -42,5 +42,23 @@
     .home-container a {
         padding-top: 7.7px;
     }
+}
+
+@media(width<=430px) {
+    .home-container h1 {
+        font-size: 3rem;
+    }
+
+    .home-container .p1 {
+        font-size: 2rem;
+    }
+
+    .home-container .p2 {
+        font-size: 1.7rem;
+    }
+
+    .home-container a {
+        padding-top: 7.7px;
+    }
 
 }
