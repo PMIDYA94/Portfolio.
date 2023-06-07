@@ -12,7 +12,7 @@ document.querySelector('.x').addEventListener('click', () => {
     document.querySelector('.navbar ul').classList.remove('active');
 });
 // -------type text-----------
-const typeText = new Typed('.type_text', {
+let typed = new Typed('.type_text', {
     strings: ['Front-end Developer', 'Fresher','Fast Lerner'],
     typeSpeed: 50,
     backSpeed:100,
